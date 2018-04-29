@@ -1,4 +1,5 @@
-# my-vue
+# vue-boilerplate
+## [Resources](./Resources.md)
 
 > A Vue.js project
 
