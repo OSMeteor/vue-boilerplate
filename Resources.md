@@ -4,7 +4,8 @@
 - [vue for webpack](http://vuejs-templates.github.io/webpack/) 
 - [docs for vue-loader](http://vuejs.github.io/vue-loader)
 - [vue-devtools)](https://github.com/vuejs/vue-devtools#vue-devtools)
-- [axios](https://github.com/axios/axios)
+- [vue-axios](https://github.com/imcvampire/vue-axios)
+    - [axios](https://github.com/axios/axios)
 - [qs](https://github.com/ljharb/qs)
 - [babel-polyfill](https://github.com/babel/babel/tree/master/packages/babel-polyfill)
 - [d3](https://github.com/d3/d3)
@@ -18,7 +19,10 @@
 - [express-mockjs](https://github.com/52cik/express-mockjs#readme)
     -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)
 - [supertest](https://github.com/visionmedia/supertest#readme)
+- [vue-resource](https://github.com/pagekit/vue-resource) 建议使用axios
 
+
+- [github  Markdown 语法](https://guides.github.com/features/mastering-markdown/)
 
 - vue UI 组件
     - [element](http://element.eleme.io/#/zh-CN) [elemefe](https://github.com/elemefe)
