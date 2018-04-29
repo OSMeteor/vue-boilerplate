@@ -1,7 +1,18 @@
 # vue-boilerplate
 ## [Resources](./Resources.md)
 
-> A Vue.js project
+
+> A Vue.js boilerplate project update time 20180429
+
+#### vendor 
+- [vuex](https://vuex.vuejs.org/zh-cn/intro.html)
+- [vue-router](https://router.vuejs.org/zh-cn/)
+- [axios](https://github.com/axios/axios)
+#### 什么时候使用Vuex
+```
+如果您不打算开发大型单页应用，使用 Vuex 可能是繁琐冗余的
+```
+
 
 ## Build Setup
 
@@ -10,7 +21,7 @@
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run dev or npm start
 
 # build for production with minification
 npm run build

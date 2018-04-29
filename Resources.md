@@ -1,12 +1,21 @@
-vuex
-vue-route
-
-
-
+- [vuex](https://vuex.vuejs.org/zh-cn/intro.html)
+- [vue-router](https://router.vuejs.org/zh-cn/)
+- [vue for webpack](http://vuejs-templates.github.io/webpack/) 
+- [docs for vue-loader](http://vuejs.github.io/vue-loader)
+- [vue-devtools)](https://github.com/vuejs/vue-devtools#vue-devtools)
+- [axios](https://github.com/axios/axios)
+- [qs](https://github.com/ljharb/qs)
+- [babel-polyfill](https://github.com/babel/babel/tree/master/packages/babel-polyfill)
+- [d3](https://github.com/d3/d3)
+- [echarts](https://github.com/apache/incubator-echarts)
+- [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud)
+- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
 
 - vue UI 组件
     - [element](http://element.eleme.io/#/zh-CN) [elemefe](https://github.com/elemefe)
     - [VUX](https://github.com/airyland/vux)
     - [iview](https://github.com/iview/iview)
     - [Mint UI](https://github.com/ElemeFE/mint-ui)
-
+![生命周期图示](https://cn.vuejs.org/images/lifecycle.png?_sw-precache=6f2c97f045ba988851b02056c01c8d62) 
+![vuex 单向数据流](https://vuex.vuejs.org/zh-cn/images/flow.png)
+![vuex 状态管理库](https://vuex.vuejs.org/zh-cn/images/vuex.png)
