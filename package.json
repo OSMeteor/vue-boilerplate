@@ -7,12 +7,15 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
+    "mock": "./node_modules/.bin/mocha build/mock-server.js",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "mocha": "^5.1.1",
+    "supertest": "^3.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -35,6 +38,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
+    "express-mockjs": "^0.4.9",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",

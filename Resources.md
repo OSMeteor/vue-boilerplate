@@ -1,4 +1,5 @@
 - [vuex](https://vuex.vuejs.org/zh-cn/intro.html)
+    - [vuex shopping cart](https://github.com/vuejs/vuex/tree/dev/examples/shopping-cart)
 - [vue-router](https://router.vuejs.org/zh-cn/)
 - [vue for webpack](http://vuejs-templates.github.io/webpack/) 
 - [docs for vue-loader](http://vuejs.github.io/vue-loader)
@@ -10,6 +11,14 @@
 - [echarts](https://github.com/apache/incubator-echarts)
 - [echarts-wordcloud](https://github.com/ecomfe/echarts-wordcloud)
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
+- [mockjs](http://mockjs.com/)
+- [requirejs](http://requirejs.org/)
+- [vue-i18n](https://kazupon.github.io/vue-i18n/en/)
+- [vue-progressbar](http://hilongjw.github.io/vue-progressbar/index.html)
+- [express-mockjs](https://github.com/52cik/express-mockjs#readme)
+    -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)
+- [supertest](https://github.com/visionmedia/supertest#readme)
+
 
 - vue UI 组件
     - [element](http://element.eleme.io/#/zh-CN) [elemefe](https://github.com/elemefe)
