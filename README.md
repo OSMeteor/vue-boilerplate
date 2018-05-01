@@ -35,10 +35,15 @@
 │   ├── App.vue
 │   ├── ...
 │   ├── store 
-        ├── index.js          # 我们组装模块并导出 store 的地方
-        ├── actions.js        # 根级别的 action
-        ├── mutations.js      # 根级别的 mutation
+        ├── index.js          # 我们组装模块并导出 store 的地方   
         └── modules
+            ├── counter           # 计时器模块    
+                ├── actions.js       
+                ├── getters.js       
+                ├── index.js       
+                ├── mutation-types.js  #便于管理页面上的事件列表     
+                ├── mutation.js        
+                └── state.js       
             ├── cart.js       # 购物车模块
             └── products.js   # 产品模块
 
