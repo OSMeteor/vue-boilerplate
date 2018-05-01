@@ -41,7 +41,23 @@
           href="http://vuejs-templates.github.io/webpack/"
           target="_blank"
         >
+          Docs for vuejs-templates Template
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/OSMeteor/vue-boilerplate"
+          target="_blank"
+        >
           Docs for This Template
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/OSMeteor/vue-boilerplate/blob/master/Resources.md"
+          target="_blank"
+        >
+          Docs for This Template Resources
         </a>
       </li>
     </ul>
@@ -80,6 +96,16 @@
         </a>
       </li>
     </ul>
+
+    <h2>OSMeteor vue-boilerplate</h2>
+    <ul>
+      <li>
+            <router-link target="_blank" to="/counter">Go to Counter demo </router-link> 
+      </li>
+      <li>
+        <router-link target="_blank"  to="/element">Go to element demo</router-link> 
+      </li> 
+    </ul>
   </div>
 </template>
 
@@ -88,7 +114,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to vue-boilerplate App'
     }
   }
 }

@@ -47,6 +47,11 @@
 ## Build Setup
 
 ``` bash
+# git  clone 
+git clone  https://github.com/OSMeteor/vue-boilerplate
+
+cd  vue-boilerplate
+
 # install dependencies
 npm install
 
