@@ -20,15 +20,7 @@ export default {
 }
 </script>
 
-<style>
-body {
-  margin: 0px;
-  padding: 0px;
-}
-#app {
-  font-family: Helvetica, sans-serif;
-  text-align: center;
-}
+<style scoped> 
  .el-header, .el-footer {
     background-color: #B3C0D1;
     color: #333;
