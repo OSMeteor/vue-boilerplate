@@ -10,18 +10,18 @@
 
 <script>
 //  ###  普通全局用法
-// import { mapState,mapGetters, mapActions } from 'vuex'
+import { mapState,mapGetters, mapActions } from 'vuex'
 // ###  如果    namespaced: true,
-import { createNamespacedHelpers } from 'vuex' 
-const { mapState, mapGetters,mapActions } = createNamespacedHelpers('counter')
+// import { createNamespacedHelpers } from 'vuex' 
+// const { mapState, mapGetters,mapActions } = createNamespacedHelpers('counter')
 // ###  如果    namespaced: true,
 export default {
   computed:{
-    ...mapState({
-      count:state => state.count
-    }),
+    // ...mapState({
+    //   // count:state => state.count
+    // }),
     ... mapGetters([
-    // 'count',
+    'count',
     'evenOrOdd'
   ])
   },
