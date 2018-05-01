@@ -3,7 +3,6 @@
  * @url /example-links
  * Here you can write a detailed description
  * of the parameters of the information.
- * https://github.com/52cik/express-mockjs
  */
 
 module.exports = {

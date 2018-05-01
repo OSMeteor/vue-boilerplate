@@ -19,20 +19,28 @@
     -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)
 
 ```
-├── index.html
-├── main.js
-├── api
-│   └── ... # 抽取出API请求
-├── components
+├── build  # 构建下项目以及mockAPI数据
+├── build  # 配置文件
+├── index.html 
+├── doc  # 项目相关文档建议使用 markdown 语法 书写
+├── mocks  # mock API 数据
+├── src
+│   ├── assets.js 加载组件 入口
+│   ├── main.js 加载组件 入口
+│   ├── api
+│       └── ... # 抽取出API请求
+│   ├── components  # 公共组件、第三方放在这里 
+│   ├── pages   # 具体业务组件开发
+│       └── ... # 具体业务逻辑页面
 │   ├── App.vue
-│   └── ...
-└── store
-    ├── index.js          # 我们组装模块并导出 store 的地方
-    ├── actions.js        # 根级别的 action
-    ├── mutations.js      # 根级别的 mutation
-    └── modules
-        ├── cart.js       # 购物车模块
-        └── products.js   # 产品模块
+│   ├── ...
+│   ├── store 
+        ├── index.js          # 我们组装模块并导出 store 的地方
+        ├── actions.js        # 根级别的 action
+        ├── mutations.js      # 根级别的 mutation
+        └── modules
+            ├── cart.js       # 购物车模块
+            └── products.js   # 产品模块
 
 ```
 
@@ -42,8 +50,12 @@
 # install dependencies
 npm install
 
+# mock api data 
+npm run mock
+
 # serve with hot reload at localhost:8080
 npm run dev or npm start
+
 
 # build for production with minification
 npm run build

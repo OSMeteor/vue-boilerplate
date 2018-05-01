@@ -20,7 +20,10 @@
     -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)
 - [supertest](https://github.com/visionmedia/supertest#readme)
 - [vue-resource](https://github.com/pagekit/vue-resource) 建议使用axios
-
+- [对象展开运算符...](https://github.com/tc39/proposal-object-rest-spread)
+- [webpack](https://doc.webpack-china.org/)
+    - [模块热替换(Hot Module Replacement)](https://doc.webpack-china.org/concepts/hot-module-replacement/)
+- [vuex-router-sync](https://github.com/vuejs/vuex-router-sync)    
 
 - [github  Markdown 语法](https://guides.github.com/features/mastering-markdown/)
 
@@ -32,3 +35,6 @@
 ![生命周期图示](https://cn.vuejs.org/images/lifecycle.png?_sw-precache=6f2c97f045ba988851b02056c01c8d62) 
 ![vuex 单向数据流](https://vuex.vuejs.org/zh-cn/images/flow.png)
 ![vuex 状态管理库](https://vuex.vuejs.org/zh-cn/images/vuex.png)
+
+- 其他
+    - [vue vuex 介绍](https://docs.google.com/presentation/d/12pVWAHKlXiKHXs4A_D88ZsVtuV9dFHPIv9WZf2OxSlk/pub?start=false&loop=false&delayms=3000#slide=id.g15f795d472_0_71)
