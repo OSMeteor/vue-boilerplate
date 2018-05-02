@@ -21,7 +21,6 @@
     -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)
 
 ```
-├── build  # 构建下项目以及mockAPI数据
 ├── build  # 配置文件
 ├── index.html 
 ├── doc  # 项目相关文档建议使用 markdown 语法 书写
