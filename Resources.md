@@ -1,3 +1,4 @@
+- [vue](https://cn.vuejs.org/)
 - [vuex](https://vuex.vuejs.org/zh-cn/intro.html)
     - [vuex shopping cart](https://github.com/vuejs/vuex/tree/dev/examples/shopping-cart)
 - [vue-router](https://router.vuejs.org/zh-cn/)

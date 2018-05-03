@@ -2,7 +2,7 @@
 ## [Resources](./Resources.md)
 
 
-> A Vue.js boilerplate project update time 20180429
+> A [Vue.js](https://cn.vuejs.org/) boilerplate project update time 20180429
 
 #### vendor 
 - [vuex](https://vuex.vuejs.org/zh-cn/intro.html)
