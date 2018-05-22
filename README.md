@@ -2,6 +2,9 @@
 ## [Resources](./Resources.md)
 
 
+## 动态加载组件 
+## vue  动态布局
+
 > A [Vue.js](https://cn.vuejs.org/) boilerplate project update time 20180429
 
 #### vendor 
@@ -26,10 +29,12 @@
 ├── doc  # 项目相关文档建议使用 markdown 语法 书写
 ├── mocks  # mock API 数据
 ├── src
-│   ├── assets.js 加载组件 入口
+│   ├── assets  资源文件
 │   ├── main.js 加载组件 入口
 │   ├── api
 │       └── ... # 抽取出API请求
+│   ├── router  路由文件
+│       └──  index.js  # 路由文件
 │   ├── components  # 公共组件、第三方放在这里 
 │   ├── pages   # 具体业务组件开发
 │       └── ... # 具体业务逻辑页面
