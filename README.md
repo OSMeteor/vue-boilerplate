@@ -12,7 +12,7 @@
 - [vue-router](https://router.vuejs.org/zh-cn/)
 - [vue-axios](https://github.com/imcvampire/vue-axios)
     - [axios](https://github.com/axios/axios)
-- [express-mockjs](https://github.com/52cik/express-mockjs#readme)
+- [express-mockjs](https://github.com/52cik/express-mockjs#readme) 用 axios-mock-adapter 替换
     -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)    
 - [element](http://element.eleme.io/#/zh-CN)
 - [sass](https://www.sass.hk/)
