@@ -4,6 +4,7 @@ var mock = require('express-mockjs')
 var request = require('supertest');
 var app = express(); 
 
+const PORT = 8082;
 console.warn = function () {};
 
 describe('express mockjs test:', function () {
@@ -25,6 +26,8 @@ describe('express mockjs test:', function () {
 });
 
 // 这里可以添加你的自定义代码.
-app.listen(8082, function () {
-    console.log('listening at 8082');
+var server =  app.listen(PORT, function () { 
+   var host = server.address().address;
+   var port = server.address().port; 
+  console.log('start  app mock-server listening at http://%s:%s', host, port);
 });

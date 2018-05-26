@@ -7,6 +7,7 @@
 - [vue-devtools)](https://github.com/vuejs/vue-devtools#vue-devtools)
 - [vue-axios](https://github.com/imcvampire/vue-axios)
     - [axios](https://github.com/axios/axios)
+    - [axios-mock-adapter](https://github.com/ctimmerm/axios-mock-adapter)
 - [qs](https://github.com/ljharb/qs)
 - [babel-polyfill](https://github.com/babel/babel/tree/master/packages/babel-polyfill)
 - [d3](https://github.com/d3/d3)
