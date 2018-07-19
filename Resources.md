@@ -16,7 +16,7 @@
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
 - [mockjs](http://mockjs.com/)
 - [requirejs](http://requirejs.org/)
-- [vue-i18n](https://kazupon.github.io/vue-i18n/en/)
+- [vue-i18n](http://kazupon.github.io/vue-i18n/)
 - [vue-progressbar](http://hilongjw.github.io/vue-progressbar/index.html)
 - [express-mockjs](https://github.com/52cik/express-mockjs#readme)
     -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)
@@ -41,3 +41,5 @@
 - 其他
     - [vue vuex 介绍](https://docs.google.com/presentation/d/12pVWAHKlXiKHXs4A_D88ZsVtuV9dFHPIv9WZf2OxSlk/pub?start=false&loop=false&delayms=3000#slide=id.g15f795d472_0_71)
     - [sass](https://www.sass.hk/)
+    - [https://github.com/opendigg/awesome-github-vue](https://github.com/opendigg/awesome-github-vue)
+    - [https://github.com/vuejs/awesome-vue](https://github.com/vuejs/awesome-vue)

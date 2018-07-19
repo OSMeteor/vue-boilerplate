@@ -13,8 +13,9 @@
 - [vue-axios](https://github.com/imcvampire/vue-axios)
     - [axios](https://github.com/axios/axios)
     - [axios-mock-adapter](https://github.com/ctimmerm/axios-mock-adapter) 
-- [element](http://element.eleme.io/#/zh-CN)
+- [iview](https://github.com/iview/iview)
 - [sass](https://www.sass.hk/)
+- [vue-i18n](http://kazupon.github.io/vue-i18n/)
 #### 什么时候使用Vuex
 -
 如果您不打算开发大型单页应用，使用 Vuex 可能是繁琐冗余的 [global event bus](https://cn.vuejs.org/v2/guide/components.html#%E9%9D%9E%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84%E9%80%9A%E4%BF%A1)
