@@ -1,7 +1,18 @@
 import axios from 'axios';
+
+const axiosInstance = axios.create({
+  baseURL: 'https://some-domain.com/api/',
+  timeout: 1000,
+  headers: {
+    'X-Custom-Header': 'foobar'
+  }
+});
+
 import MockAdapter from 'axios-mock-adapter';
 // 设置模拟调试器实例 
-var mock = new MockAdapter(axios,{ delayResponse: 2000 });
+var mock = new MockAdapter(axiosInstance, {
+  delayResponse: 2000
+});
 
 mock.onGet('/users', {
   params: {
@@ -19,7 +30,7 @@ mock.onGet('/users', {
 });
 
 
-axios.get('/users', {
+axiosInstance.get('/users', {
     params: {
       searchText: 'John'
     }
@@ -28,7 +39,7 @@ axios.get('/users', {
     console.log(response.data);
   });
 
-/模拟登录                POST
+// 模拟登录                POST
 mock.onPost('/login').reply(config => {
   let {
     username,
@@ -37,14 +48,14 @@ mock.onPost('/login').reply(config => {
   return new Promise((resolve, reject) => {
     let user = null;
     setTimeout(() => {
-      let hasUser = LoginUsers.some(u => {
-        if (u.username === username && u.password === password) {
-          user = JSON.parse(JSON.stringify(u));
-          user.password = undefined;
-          return true;
-        }
-      });
-
+      // let hasUser = LoginUsers.some(u => {
+      //   if (u.username === username && u.password === password) {
+      //     user = JSON.parse(JSON.stringify(u));
+      //     user.password = undefined;
+      //     return true;
+      //   }
+      // });
+      let hasUser = true;
       if (hasUser) {
         resolve([200, {
           code: 200,
@@ -60,10 +71,10 @@ mock.onPost('/login').reply(config => {
     }, 1000);
   });
 });
-axios.post('/login', params).then(res => res.data);
+axiosInstance.post('/login', {}).then(res => res.data);
 
 
 // 没有具体路径的时候 拒绝所有的 POST 请求，返回 HTTP 500
 mock.onAny().reply(500); 
 // 导出
-export default mock;
+export default axiosInstance;

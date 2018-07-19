@@ -9,8 +9,9 @@ import router from './router'
 import store from './store'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import axios from 'axios'
-import VueAxios from 'vue-axios'
+// import axios from 'axios'
+// import VueAxios from 'vue-axios'
+import axios from '@/api/mocks/mock'
  
 import 'iview/dist/styles/iview.css';
 import {
@@ -34,7 +35,7 @@ Vue.component('Page', Page);
 Vue.component('Tabs', Tabs);
 Vue.component('TabPane', TabPane);
 
-
+Vue.use(axios)
 // Vue.use(VueI18n)
 // Vue.use(iView);
 // Vue.use(VueAxios, axios) 
