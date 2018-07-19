@@ -12,6 +12,7 @@
 - [vue-router](https://router.vuejs.org/zh-cn/)
 - [vue-axios](https://github.com/imcvampire/vue-axios)
     - [axios](https://github.com/axios/axios)
+    - [axios-mock-adapter](https://github.com/ctimmerm/axios-mock-adapter)
 - [express-mockjs](https://github.com/52cik/express-mockjs#readme) 用 axios-mock-adapter 替换
     -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)    
 - [element](http://element.eleme.io/#/zh-CN)
@@ -27,11 +28,11 @@
 ├── build  # 配置文件
 ├── index.html 
 ├── doc  # 项目相关文档建议使用 markdown 语法 书写
-├── mocks  # mock API 数据
 ├── src
 │   ├── assets  资源文件
 │   ├── main.js 加载组件 入口
 │   ├── api
+        ├── mocks  # mock API 数据
 │       └── ... # 抽取出API请求
 │   ├── router  路由文件
 │       └──  index.js  # 路由文件
