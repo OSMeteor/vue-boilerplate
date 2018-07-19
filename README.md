@@ -25,30 +25,34 @@
 ├── index.html 
 ├── doc  # 项目相关文档建议使用 markdown 语法 书写
 ├── src
-│   ├── assets  资源文件
-│   ├── main.js 加载组件 入口
 │   ├── api
-        ├── mocks  # mock API 数据
+│       ├── mocks  # mock API 数据
 │       └── ... # 抽取出API请求
-│   ├── router  路由文件
-│       └──  index.js  # 路由文件
+│   ├── assets  资源文件
 │   ├── components  # 公共组件、第三方放在这里 
 │   ├── pages   # 具体业务组件开发
 │       └── ... # 具体业务逻辑页面
+│   ├── plugin   # 具体业务组件开发 
+│   ├── main.js 加载组件 入口
+│   ├── config.js  项目配置文件信息
+│   ├── router  路由文件
+│       └──  index.js  # 路由文件
 │   ├── App.vue
 │   ├── ...
 │   ├── store 
-        ├── index.js          # 我们组装模块并导出 store 的地方   
-        └── modules
-            ├── counter           # 计时器模块    
-                ├── actions.js       
-                ├── getters.js       
-                ├── index.js       
-                ├── mutation-types.js  #便于管理页面上的事件列表     
-                ├── mutation.js        
-                └── state.js       
-            ├── cart.js       # 购物车模块
-            └── products.js   # 产品模块
+│       ├── index.js          # 我们组装模块并导出 store 的地方   
+│       └── modules
+│           ├── counter           # 计时器模块    
+│               ├── actions.js       
+│               ├── getters.js       
+│               ├── index.js       
+│               ├── mutation-types.js  #便于管理页面上的事件列表     
+│               ├── mutation.js        
+│               └── state.js       
+│           ├── cart.js       # 购物车模块
+│           └── products.js   # 产品模块
+├── static
+├── test
 
 ```
 
