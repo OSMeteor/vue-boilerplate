@@ -28,6 +28,7 @@
 - [vuex-router-sync](https://github.com/vuejs/vuex-router-sync)    
 - [js-cookie](https://github.com/js-cookie/js-cookie#readme) 建议 使用  localStorage
 - [istanbul](https://github.com/gotwarlost/istanbul#readme)
+- [jquery](https://jquery.com/)
 
 - [github  Markdown 语法](https://guides.github.com/features/mastering-markdown/)
 
