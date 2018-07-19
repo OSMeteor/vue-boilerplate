@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/pages/HelloWorld'
 import Element from '@/pages/Element'
 import Counter from '@/pages/Counter'
+import IViewLayout from '@/pages/IViewLayout'
 Vue.use(Router)
 
 export default new Router({
@@ -21,6 +22,12 @@ export default new Router({
       path: '/element',
       name: 'Element',
       component: Element
+    }
+    
+    , {
+      path: '/iviewlayout',
+      name: 'iviewlayout',
+      component: IViewLayout
     }
   ]
 })

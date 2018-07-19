@@ -11,11 +11,37 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+ 
+import 'iview/dist/styles/iview.css';
+import {
+  Layout,
+  Content,
+  Header,
+  Sider,
+  Footer,
+  Card,
+  Page,
+  Tabs,
+  TabPane
+} from 'iview';
+Vue.component('Layout', Layout);
+Vue.component('Content', Content);
+Vue.component('Header', Header);
+Vue.component('Sider', Sider);
+Vue.component('Footer', Footer);
+Vue.component('Card', Card);
+Vue.component('Page', Page);
+Vue.component('Tabs', Tabs);
+Vue.component('TabPane', TabPane);
+
 
 // Vue.use(VueI18n)
-Vue.use(VueAxios, axios) 
+// Vue.use(iView);
+// Vue.use(VueAxios, axios) 
 
 Vue.use(ElementUI)
+
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

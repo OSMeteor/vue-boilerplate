@@ -105,6 +105,9 @@
       <li>
         <router-link target="_blank"  to="/element">Go to element demo</router-link> 
       </li> 
+       <li>
+        <router-link target="_blank"  to="/iviewlayout">Go to iviewlayout demo</router-link> 
+      </li> 
     </ul>
   </div>
 </template>
