@@ -5,24 +5,20 @@
 ## 动态加载组件 
 ## vue  动态布局
 
-> A [Vue.js](https://cn.vuejs.org/) boilerplate project update time 20180429
+> A [Vue.js](https://cn.vuejs.org/) boilerplate project update time 20180719
 
 #### vendor 
 - [vuex](https://vuex.vuejs.org/zh-cn/intro.html)
 - [vue-router](https://router.vuejs.org/zh-cn/)
 - [vue-axios](https://github.com/imcvampire/vue-axios)
     - [axios](https://github.com/axios/axios)
-    - [axios-mock-adapter](https://github.com/ctimmerm/axios-mock-adapter)
-- [express-mockjs](https://github.com/52cik/express-mockjs#readme) 用 axios-mock-adapter 替换
-    -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)    
+    - [axios-mock-adapter](https://github.com/ctimmerm/axios-mock-adapter) 
 - [element](http://element.eleme.io/#/zh-CN)
 - [sass](https://www.sass.hk/)
 #### 什么时候使用Vuex
 -
 如果您不打算开发大型单页应用，使用 Vuex 可能是繁琐冗余的 [global event bus](https://cn.vuejs.org/v2/guide/components.html#%E9%9D%9E%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6%E7%9A%84%E9%80%9A%E4%BF%A1)
 
-- [express-mockjs](https://github.com/52cik/express-mockjs#readme)
-    -  [Mock JSON 文档](https://github.com/52cik/express-mockjs/blob/master/README.zh-CN.md)
 
 ```
 ├── build  # 配置文件
@@ -67,8 +63,6 @@ cd  vue-boilerplate
 # install dependencies
 npm install
 
-# mock api data 
-npm run mock
 
 # serve with hot reload at localhost:8080
 npm run dev or npm start
