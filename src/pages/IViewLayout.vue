@@ -125,7 +125,7 @@
                 this.randomMovieList = getArrayItems(this.movieList, 5);
             }
         },
-        mounted () {
+        mounted () { 
             this.changeLimit();
         }
     }
