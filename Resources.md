@@ -26,7 +26,7 @@
 - [webpack](https://doc.webpack-china.org/)
     - [模块热替换(Hot Module Replacement)](https://doc.webpack-china.org/concepts/hot-module-replacement/)
 - [vuex-router-sync](https://github.com/vuejs/vuex-router-sync)    
-- [js-cookie](https://github.com/js-cookie/js-cookie#readme)
+- [js-cookie](https://github.com/js-cookie/js-cookie#readme) 建议 使用  localStorage
 - [istanbul](https://github.com/gotwarlost/istanbul#readme)
 
 - [github  Markdown 语法](https://guides.github.com/features/mastering-markdown/)

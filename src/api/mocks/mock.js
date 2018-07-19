@@ -1,3 +1,4 @@
+var Mock = require('mockjs')
 import axios from 'axios';
 
 const axiosInstance = axios.create({
@@ -21,12 +22,28 @@ mock.onGet('/users', {
 }).reply(function (config) {
   //config是axios config 
   //返回一个数组[status, data, headers] 
-  return [200, {
+  return [200, 
+    Object.assign(
+      Mock.mock({
+        // 属性 list 的值是一个数组，其中含有 1 到 10 个元素
+        'list|1-10': [{
+          // 属性 id 是一个自增数，起始值为 1，每次增 1
+          'id|+1': 1,
+          "number|+1": 202,
+          "ip": Mock.Random.ip(),
+          "email": Mock.Random.email(),
+          "url_http": Mock.Random.url('http'),
+          "dt": Mock.Random.date('yyyy-MM-dd'),
+          "dt1": Mock.Random.now('yyyy-MM-dd A HH:mm:ss'),
+          "t1": Mock.Random.cparagraph()
+        }]
+      }),
+    { 
     users: [{
       id: 1,
       name: 'John Smith'
     }]
-  }];
+  })];
 });
 
 

@@ -19,6 +19,7 @@
     "iview": "^2.14.3",
     "js-cookie": "^2.2.0",
     "mocha": "^5.1.1",
+    "mockjs": "^1.0.1-beta3",
     "supertest": "^3.0.0",
     "vue": "^2.5.2",
     "vue-axios": "^2.1.1",
