@@ -13,6 +13,7 @@
 - [vue-axios](https://github.com/imcvampire/vue-axios)
     - [axios](https://github.com/axios/axios)
     - [axios-mock-adapter](https://github.com/ctimmerm/axios-mock-adapter) 
+    - [mockjs](http://mockjs.com/)
 - [iview](https://github.com/iview/iview)
 - [sass](https://www.sass.hk/)
 - [vue-i18n](http://kazupon.github.io/vue-i18n/)
