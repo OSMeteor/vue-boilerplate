@@ -34,6 +34,16 @@ exports.cssLoaders = function (options) {
     const loaders = options.usePostCSS ? [cssLoader, postcssLoader] : [cssLoader]
 
     if (loader) {
+      if(loader=="less") {
+        loaders.push({
+          loader: loader + '-loader',
+          options: Object.assign({}, loaderOptions, {
+            sourceMap: options.sourceMap,
+            javascriptEnabled: true
+          })
+        })
+      }
+      else 
       loaders.push({
         loader: loader + '-loader',
         options: Object.assign({}, loaderOptions, {
