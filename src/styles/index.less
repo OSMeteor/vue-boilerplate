@@ -1,0 +1,42 @@
+@import "./custom";  
+// @import '~iview/src/styles/index.less'; 
+@import './iview/styles/index.less'; 
+// Here are the variables to cover, such as:
+
+// iPhone < 767px
+@media (max-width: @screen-xs-max) {  
+    #app{
+        .main{
+            // height: 900px; 
+             background: #e8e7e8;
+        } 
+    }
+ } 
+// ipad  768-911
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+     #app{
+            .main{
+                // height: 900px; 
+                background: #e8e7e8;
+            } 
+    } 
+ }
+ // ipad Pro 992-1199px
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { 
+     #app{
+            .main{ 
+                height: 1630px;
+               background: #e8e7e8;
+            } 
+           
+    }
+ }
+ // web  > 1200
+@media (min-width: @screen-lg-min) { 
+     #app{
+            .main{ 
+                background: #e8e7e8;
+            } 
+            
+    }
+ }

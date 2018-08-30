@@ -1,18 +1,20 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
-import cart from './modules/cart'
-import products from './modules/products'
-import counter from './modules/counter'
+import Vuex from 'vuex'  
 import createLogger from 'vuex/dist/logger'
+import common from './modules/common'
+import customers from './modules/customers'
+import API from "../api";
+import { i18n } from '../i18n'
+
 
 Vue.use(Vuex)
- 
-export default new Vuex.Store({
-    modules: { 
-        cart,
-        products,
-        counter 
-    },
-    strict: process.env.NODE_ENV !== 'production',
-    plugins: process.env.NODE_ENV !== 'production' ? [createLogger()] : []
-})
+const store = new Vuex.Store({
+   modules: { 
+     common,
+     'customers': customers(API, i18n)
+   },
+   strict: process.env.NODE_ENV !== 'production',
+   plugins: process.env.NODE_ENV !== 'production' ? [createLogger()] : []
+ })
+store.commit('updateIsMobileStatus')
+export default store

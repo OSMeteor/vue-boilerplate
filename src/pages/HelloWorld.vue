@@ -11,14 +11,7 @@
           Core Docs
         </a>
       </li>
-      <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
-          Forum
-        </a>
-      </li>
+      
       <li>
         <a
           href="https://chat.vuejs.org"
@@ -101,9 +94,6 @@
     <ul>
       <li>
             <router-link target="_blank" to="/counter">Go to Counter demo </router-link> 
-      </li>
-      <li>
-        <router-link target="_blank"  to="/element">Go to element demo</router-link> 
       </li> 
        <li>
         <router-link target="_blank"  to="/iviewlayout">Go to iviewlayout demo</router-link> 

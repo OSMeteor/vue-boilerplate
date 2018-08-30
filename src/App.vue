@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
+  <div id="app"> 
     <router-view/> 
   </div>
 </template>
@@ -17,14 +16,16 @@ body {
   margin: 0px;
   padding: 0px;
 }
-/* #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
+* {
+    margin: 0;
+    padding: 0;
+    /* color: #333333; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+ 
 #app {
   font-family: Helvetica, sans-serif;
   text-align: center;
