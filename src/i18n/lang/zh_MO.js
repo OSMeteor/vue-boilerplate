@@ -2,6 +2,17 @@ export default {
   message: {
     hello: '嗨，世界',
   },
+  netConnectionStatus: {
+    Connected: '已连接',
+    Connecting: '连接中'
+  },
+  nav: {
+    Home: "首页",
+    Help: "帮助",
+    Account: "个人中心",
+    SignIn: "登录",
+    SignUp: "注册"
+  },
   errMsg: {
     4003: "验证码错误请重新获取",
     2008: "该手机号已存在",
