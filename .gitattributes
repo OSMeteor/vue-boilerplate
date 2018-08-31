@@ -4,3 +4,5 @@
 *.md linguist-language= JavaScript
 *.less  linguist-language= JavaScript
 *.vue  linguist-language= JavaScript
+Makefile  linguist-language= JavaScript
+ 
